@@ -1,35 +1,24 @@
 {
-  "name": "stoper",
+  "name": "Kodilla-14.7",
   "version": "1.0.0",
+  "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel --plugins transform-react-jsx script.js --watch --out-file script-compiled.js"
+    "start": "http-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.6.1",
-    "install": "^0.10.2",
-    "npm": "^5.6.0"
-  },
-  "presets": [
-    "env"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dawidkozakiewicz/Kodilla-14.7.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dawidkozakiewicz/Kodilla-14.7/issues"
   },
   "homepage": "https://github.com/dawidkozakiewicz/Kodilla-14.7#readme",
-  "description": "",
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+  "devDependencies": {
+    "http-server": "^0.11.1"
   }
 }
