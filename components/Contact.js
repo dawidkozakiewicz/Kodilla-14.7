@@ -20,7 +20,7 @@
   },
 }); */
 
-var Contact = React.createClass({
+var Contacts = React.createClass({
   propTypes: {
     item: React.PropTypes.object.isRequired,
   },
